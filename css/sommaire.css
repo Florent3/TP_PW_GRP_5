@@ -1,0 +1,153 @@
+.som
+{
+    display: flex;
+    flex-direction: row;
+}
+footer
+{
+    padding: 5%;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#article
+{
+    background-color:rgba(128, 128, 128, 0.404);
+    height: 45%;
+}
+#article1
+{
+    background-color:rgba(128, 128, 128, 0.404);
+    width: 220%;
+}
+#aside
+{
+    background-image: url(../images/344c11eb9ebf562552880732e4fc9d0b.jpg);
+    height: 50%;
+}
+#aside1
+{
+    background-image: url(../images/th\ \(8\).jpeg);
+    height: 25vh;
+}
+#aside2
+{
+    background-image: url(../images/fally6.jpg);
+    width: 60%;
+    height: 70%;
+    margin: 20px;
+}
+h5
+{
+    padding: 0%;
+    margin: 0%;
+}
+@media only screen and (max-width:649px)
+{
+    nav a img
+    {
+       margin: 0; 
+    }
+    body
+    {
+        padding: 0%;
+    }
+    header, footer, h1, section, article, aside
+    {
+        display: block;
+        padding: 0%;
+        margin: 2%;
+    }
+    footer
+    {
+        position: static;
+    }
+    nav
+    {
+        display: block;
+        flex-direction:row;
+    }
+    #na
+    {
+        flex-direction: row;
+        width: 65%;
+    }
+    section
+    {
+        flex-direction:column;
+    }
+    #section
+    {
+        flex-direction: column;
+        margin: 0%;
+        padding: 0%;
+    }
+    .som
+    {
+        flex-direction: column;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+    article, #article1
+    {
+        width: 95%;
+        margin: 0%;
+        padding: 0%;
+    }
+    aside
+    {
+        margin: 0% 0% 2% 0%;
+        padding: 0%;
+        width: 95%;
+    }
+    .section0
+    {
+        width: 80%;
+    }
+    
+}
+@media only screen and (min-width:650px) and (max-width:862px)
+{
+    #article
+    {
+        height: 100%;
+    }
+}
+@media only screen and (min-width:832px) and (max-width:859px)
+{
+    #article
+    {
+        height: 85%;
+    }
+}
+@media only screen and (min-width:863px) and (max-width:831px)
+{
+    #article
+    {
+        height: 70%;
+    }
+}
+@media only screen and (min-width:863px)
+{
+    #article
+    {
+        height: 80%;
+    }
+}
+@media only screen and (min-width:875px)
+{
+    #article
+    {
+        height: 75%;
+    }
+}
+@media only screen and (min-width:860px) and (max-width:863px)
+{
+    #article
+    {
+        height: 79%;
+    }
+}

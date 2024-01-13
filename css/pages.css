@@ -1,0 +1,150 @@
+.secpag
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer
+{
+    flex-direction: row;
+}
+.sec
+{
+    text-align: center;
+}
+.art
+{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 39%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul
+{
+    list-style: disc;
+}
+@media only screen and (min-width:521px)and (max-width:959px)
+{
+    body
+    {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    header
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .h
+    {
+        width: 100%;
+        font-size: 400%;
+    }
+}
+@media only screen and (min-width:374px) and (max-width:520px)
+{
+    body
+    {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    header
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    p
+    {
+        width: 104%;
+    }
+    .art
+    {
+        width: 100%;
+    }
+    .h
+    {
+        width: 100%;
+        font-size: 300%;
+    }
+    .section0
+    {
+        font-size: 100%;
+        width: 100%;
+    }
+}
+@media only screen and (min-width:276px) and (max-width:373px)
+{
+    body
+    {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    header
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    p
+    {
+        width: 104%;
+    }
+    .art
+    {
+        width: 100%;
+    }
+    .h
+    {
+        width: 100%;
+        font-size: 200%;
+    }
+    .section0
+    {
+        font-size: 80%;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:390px)
+{
+    .secpag
+    {
+        flex-direction: column;
+    }
+    div
+    {
+        margin: 0;
+        padding: 0;
+    }
+}
+@media only screen and (max-width:375px)
+{
+    body
+    {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    header
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    p
+    {
+        width: 104%;
+    }
+    .art
+    {
+        width: 100%;
+    }
+    .h
+    {
+        width: 100%;
+        font-size: 180%;
+    }
+    .section0
+    {
+        font-size: 60%;
+        width: 100%;
+    }
+}

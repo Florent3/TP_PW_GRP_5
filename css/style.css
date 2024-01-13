@@ -1,0 +1,122 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(../images/Fally\ Ipupa\ Congolese\ singer-songwriter.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+header
+{
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url(../images);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+footer
+{
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+}
+div
+{
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+}
+section
+{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    background-image: url(../images);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+article
+{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 390%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+aside
+{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    overflow: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav
+{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 10%;
+    word-wrap: break-word;
+    background-color: white;
+    height: 50%;
+}
+nav a img 
+{
+    height: 60px;
+    width: 60px;
+    margin: 0 0 20% 0;
+}
+h1
+{
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 600%;
+    color: red;
+    display: flex;
+    padding: 0%;
+    width: 50%;
+}
+.section0
+{
+    display: flex;
+    width: 50%;
+    background-color:rgba(128, 128, 128, 0.001);
+    justify-content: space-around;
+}
+h3 sup a
+{
+    color: red;
+}
+a
+{
+    text-decoration: none;
+}
+p
+{
+    width: 100%;
+}
+.ti
+{
+    display: none;
+}
+.li:hover
+{
+    color: pink;
+}
+.li:visited
+{
+    color: purple;
+}
